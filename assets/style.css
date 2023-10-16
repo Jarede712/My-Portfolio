@@ -1,0 +1,105 @@
+* {
+    margin:0;
+    padding:0;  
+  }
+  
+  /* Element Selectors */
+  body {
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    background-color: #0e0e0d;
+    color: #efeded;
+  }
+  
+  h1,
+  h2 {
+    margin: 20px;
+  }
+  
+  main {
+    padding: 60px 0;
+  }
+  
+  li {
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #eee8e8;
+  }
+  
+  header,
+  footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #0a2176;
+  }
+  
+  header {
+    position: fixed;
+    border-bottom: 10px solid #3a0f77;
+  }
+  
+  footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid #51127b;
+    color: #a0181a;    
+  }
+  
+  figure {
+    margin-bottom: 40px;
+  }
+  
+  img {
+    display: inline-flexbox;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #450725;
+    background-color:  #0d0c0c;
+  }
+
+    
+  
+  .text-right {
+    text-align: right;
+    position: relative;
+    bottom: 100px;
+  }
+  
+  .current-work {
+    position: relative;
+    left: 200px;
+  }
+
+  .page-title {
+    position: relative;
+    bottom: 20px;
+  }
+
+  p {
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+  }
+ 
+  .code-card .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .text-right:hover,
+  .current-work:hover .contact-me {
+    box-shadow: inset 0px 0px 8px rgb(240, 234, 240), 0 0 15px rgb(234, 228, 235);
+  }
